@@ -29,7 +29,8 @@ ul {
 }
 
 ol {
-    list-style-type: upper-roman;
+    list-style-type: upper-alpha;
+
 }
 
 tr {
@@ -64,6 +65,8 @@ table {
     border-style: solid;
     border-width: 0.5em;
     border-color: black;
+    width: 80%;
+    margin: auto;
 }
 
 .centre {
@@ -125,6 +128,11 @@ span.title {
 
 :link {
     color:black;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: green;
 }
 
 :visited {
