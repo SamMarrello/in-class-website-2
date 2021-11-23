@@ -121,16 +121,18 @@ table {
 }
 .imagespagemainflexcontainer {
     display:flex;
-    border-radius:0.75em;
+    margin: 2em;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .imagespagemainflexitem {
-    margin-top: 2em;
-    margin-bottom: 2em;
     justify-content: flex-start;
-    max-width: 25em;
+    justify-items:center;
+    max-width: 30em;
+    border-radius:0.75em;
+    background-color: plum;
+    margin: 1em;
 }
 
 .maincontainer {
