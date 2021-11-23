@@ -80,12 +80,6 @@ table {
     text-align: left;
 }
 
-.navflexcontainer {
-    text-align: left;
-    font-size: 60%;
-    font-family: cursive;
-}
-
 .question {
     font-weight: bold;
 }
@@ -106,9 +100,37 @@ table {
 
 .navflexcontainer {
     margin-bottom: 2em;
-    font-size: 50%;
-    font-family:cursive;
-    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+
+.navflexitem {
+    background-color: black;
+    font-style: italic;
+    text-shadow:0.2em 0.2em 0 rgba(0,0,0,0.1);
+    padding-left: 0.3em;
+    flex: 0.1
+}
+
+.navflexbreak {
+    flex: 3;
+}
+
+.navflexsocial {
+    flex: 0.1;
+}
+.imagespagemainflexcontainer {
+    display:flex;
+    border-radius:0.75em;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagespagemainflexitem {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: flex-start;
+    max-width: 25em;
 }
 
 .maincontainer {
