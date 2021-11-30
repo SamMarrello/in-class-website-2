@@ -19,16 +19,62 @@
     <span class="title">The Borzoi</span>
     <div class="maincontainer">
         <form action="form.html">
-            <label>Interested in a Borzoi? Apply to adopt today!</label>
-            <br>
-            <input type = "text" id = "name" value = "Your Name Here" />
-            <br>
-            <label>Do you have the following?</label>
-            <label for = "question">Fenced Yard?</label>
-            <input type = "checkbox" id = "question"/>
-            <br>
-            <label>Please write your phone number here!</label>
-            <input type = "number" id = "phone" value = "111-111-1111">
+            <div class="mainformflexbox">
+                <label for = "name">Interested in a Borzoi? Apply to adopt today!</label>
+                <input type = "text" id = "name" value = "Your Name Here" />
+            </div>
+            <div class="mainformflexbox">
+                <label>Do you have the following?</label>
+                <label for = "question1">Fenced Yard?</label>
+                <input type = "checkbox" id = "question1"/>
+                <label for = "question2">Experience with sighthounds?</label>
+                <input type = "checkbox" id = "question2">
+                <label for = "question3">Dog experience in general?</label>
+                <input type = "checkbox" id = "question3">
+                <label for = "question4">Do you want to do sports with your dog?</label>
+                <input type = "checkbox" id = "question4">
+            </div>
+            <div class="mainformflexbox">
+                <label for = "phone">Please write your phone number here!</label>
+                <input type = "number" id = "phone" value = "111-111-1111">
+            </div>
+            <div class="mainformflexbox">
+                <label for = "vet">Please Enter your Vet reference here</label>
+                <input type = "text" id = "vet" value = "Vet name">
+            </div>
+            <div class="mainformflexbox">
+                <label for = "miscbreed">If you said you had previous sighthound experience, which type?</label>
+                <div class = "mainformflexbox">
+                    <select id = "miscbreed" size = 6>
+                        <option value = "borzoi">Borzoi</option>
+                        <option value = "afghan">Afghan</option>
+                        <option value = "iggy">Italian Greyhound</option>
+                        <option value = "greyhound">Greyhound</option>
+                        <option value = "wolfhound">Irish Wolfhound</option>
+                        <option value = "saluki">Saluki</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mainformflexbox">
+                <fieldset>
+                    <label>Do you have a favourite colour? If so, which:</label>
+                    <input type = "radio" name = "colour">White
+                    <input type = "radio" name = "colour">Red
+                    <input type = "radio" name = "colour">Black
+                    <input type = "radio" name = "colour">Silver
+                    <input type = "radio" name = "colour">Brindle
+                </fieldset>
+            </div>
+            <div class = "mainformflexbox">
+                <label for = "arrivalDate">Please put a day you'd be available to talk</label>
+                <input type = "date" id = "arrivalDate"/>
+                <label for = "arrivalTime">What time during that day would work best for you></label>
+                <input type = "time" id = "arrivalTime"/>
+            </div>
+            <div class="mainformflexbox">
+                <label for = "moreinfo">Do you have anything else to add? Let us know below!</label>
+                <textarea  id = "moreinfo" row = "10" cols = "25" maxlength = "500"></textarea>
+            </div>
         </form>
     </div>
     <div class="footercontainer">
