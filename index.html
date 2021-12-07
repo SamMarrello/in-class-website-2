@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/CSSstyles.css"/>
     <script src="javascript/javascript.js"></script>
 </head>
-<body>
+<body onload="todaysDate()">
     <div class="navflexcontainer">
         <div class="navflexitem"><a href="index.html">Home</a></div>
         <div class="navflexitem"><a href="table.html">Table</a></div>
@@ -46,7 +46,7 @@
     <div class="footercontainer">
         <div class="footerflexitem">Website by Sam Marrello.</div>
         <div class="footerflexitem"><a href="mailto:sammarrello@student.sl.on.ca">Contact me!</a></div>
-        <div class="footerflexitem" onload="todaysDate()"></div>
+        <div class="footerflexitem" id="todaysDate"></div>
     </div>
 </body>
 </html>

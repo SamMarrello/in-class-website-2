@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/CSSstyles.css"/>
     <script src="javascript/javascript.js"></script>
 </head>
-<body>
+<body onload="todaysDate()">
     <div class="navflexcontainer">
         <div class="navflexitem"><a href="index.html">Home</a></div>
         <div class="navflexitem"><a href="table.html">Table</a></div>
@@ -21,7 +21,7 @@
         <span class="title">The Borzoi</span>
         <button onclick="changeTable()">Click to see the table is an alternate style!</button>
         <h2>Borzoi: Colour and Pattern Types</h2>
-        <table class="centre">
+        <table class="centre" id="table">
             <tr>
                 <th colspan = "5">Borzoi Colour Combinations</th>
             </tr>
@@ -40,11 +40,7 @@
                 <td>White</td>
             </tr>
             <tr>
-                <td>Gold</td>
-                <td>Gold</td>
-                <td>Gold</td>
-                <td>Gold</td>
-                <td>Gold</td>
+                <td rowspan="5">Gold</td>
             </tr>
             <tr>
                 <td>Red</td>
@@ -54,11 +50,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td>Black</td>
-                <td>Black</td>
-                <td>Black</td>
-                <td>Black</td>
-                <td>Black</td>
+                <td rowspan="5">Black</td>
             </tr>
             <tr>
                 <td></td>
@@ -86,9 +78,9 @@
             </ul>
     </div>
     <div class="footercontainer">
-        Website by Sam Marrello.
-        <a href="mailto:sammarrello@student.sl.on.ca">Contact me!</a>
-
+        <div class="footerflexitem">Website by Sam Marrello.</div>
+        <div class="footerflexitem"><a href="mailto:sammarrello@student.sl.on.ca">Contact me!</a></div>
+        <div class="footerflexitem" id="todaysDate"></div>
     </div>
 </body>
 </html>

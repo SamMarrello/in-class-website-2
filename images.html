@@ -5,8 +5,9 @@
     <meta charset ="UTF-8">
     <title>Images</title>
     <link rel="stylesheet" type="text/css" href="CSS/CSSstyles.css"/>
+    <script src="javascript/javascript.js"></script>
 </head>
-<body class="pictures">
+<body class="pictures" onload="todaysDate()">
     <div class="navflexcontainer">
         <div class="navflexitem"><a href="index.html">Home</a></div>
         <div class="navflexitem"><a href="table.html">Table</a></div>
@@ -83,8 +84,9 @@
         </div>
     </div>
     <div class="footercontainer">
-        Website by Sam Marrello.
-        <a href="mailto:sammarrello@student.sl.on.ca">Contact me!</a>  
+        <div class="footerflexitem">Website by Sam Marrello.</div>
+        <div class="footerflexitem"><a href="mailto:sammarrello@student.sl.on.ca">Contact me!</a></div>
+        <div class="footerflexitem" id="todaysDate"></div>
     </div>
 </body>
 </html>
