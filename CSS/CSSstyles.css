@@ -14,14 +14,14 @@ h1 {
 h2 {
     color: black;
     font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: NSimSun, Times, serif;
     text-align: center;
 }
 
 p {
     color:black;
     font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, sans-serif;
 }
 
 ul {
@@ -146,8 +146,30 @@ table {
     min-width: 25em;
     padding: 5em;
     background-color: bisque;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainformflexbox {
+    padding: 1em;
+    flex: 0.1;
+}
+
+label {
+    font-style: oblique;
+    font-family: Arial;
+}
+
+input {
+    font-style: italic;
+    font-family: Algerian;
+    color: darkred;
+}
+
+button.hover {
+    opacity: 0.5;
 }
 
 span.title {
@@ -157,7 +179,7 @@ span.title {
 }
 
 :link {
-    color:black;
+    color:red;
 }
 
 a:hover {
