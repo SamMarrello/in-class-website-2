@@ -96,6 +96,12 @@ table {
     background-color: antiquewhite;
     margin-right: 0.5em;
     padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerflexitem {
+
 }
 
 .navflexcontainer {
