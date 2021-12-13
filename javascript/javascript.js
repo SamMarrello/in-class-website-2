@@ -7,8 +7,8 @@ function todaysDate() {
 }
 
 function changeTable() {
-    document.getElementById("table").style.color = "green";
-    document.getElementById("table").style.borderStyle = "dotted";
-    document.getElementById("table").style.borderWidth = "0.3em";
-    document.getElementById("table").style.borderColor = "yellow";
+    document.getElementById("tablejs").style.color = "green";
+    document.getElementById("tablejs").style.borderStyle = "dotted";
+    document.getElementById("tablejs").style.borderWidth = "0.3em";
+    document.getElementById("tablejs").style.borderColor = "yellow";
 }
